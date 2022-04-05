@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+    font-size: 25px;
+    font-weight: 600;
+    color:#d9d9d9;
+    background-color: #284b63;
+    width: auto;
+    height: 100px;
+    text-transform: uppercase;
+    text-align:center;
+    padding:40px 0px;
+}
+h1{ 
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align:center;
+    padding-bottom: 10px;
+
+}
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align:center;
+}
+.nolanintro{
+    background-color: #284b63;
+    color:#d9d9d9;
+    padding:30px 100px;
+}
+#nolan_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 500px; 
+    object-fit: cover;
+}
+.poster img{
+    width:250px;
+    border:solid 5px #a37774;
+    margin: 15px
+}
+.poster {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:center;
+}
+ul{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+        
+}
+footer{
+    text-align: center;
+    margin: 20px 0px;
+    font-style:italic;
+}
+body { 
+    
+    font-family: 'Playfair Display', serif;
+}
+
